@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    opacity: 0.9;
+}
+
+
+
+h1{
+    text-align: center;
+/*    margin: 350px auto;*/
+}
+
+.para{
+    text-align: center;
+    padding: 300px 0px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+        text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+ul li{
+    float: left;
+    padding:15px 30px;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+header{
+    height: 50px;
+    background-color: #6b6bb2;
+    border-bottom: 2px solid blue;
+}
+
+/*logo*/
+.logo{
+    height: 45px;
+    width: auto;
+    padding: 2px 10px;
+}
+
+.logo:hover ,li:hover {
+    background-color:#4a4a7c;
+    color: darkslategray;
+}
+
+/*Navigation bar*/
+.nav{
+    float: right; 
+}
+span{
+    font-size: 40px;
+}
+
+li:active{
+    background-color: #4a4a7c;
+}
+
+/*Footer Section*/
+#div{
+    height: 60px;
+    background-color: #6b6bb2;
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.footpara{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.explore{
+    text-align: center;
+    border: 1px solid ;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+  
+}
+
+.explore:hover{
+    background-color: orangered
+        
+}
